@@ -1,4 +1,4 @@
-package com.demo.jdk8;
+package com.demo.jdk8.interfaces;
 
 import java.sql.SQLOutput;
 import java.util.Arrays;

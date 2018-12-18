@@ -1,6 +1,5 @@
-package com.demo.jdk8;
+package com.demo.jdk8.interfaces;
 
-import java.util.Objects;
 import java.util.function.BiFunction;
 import java.util.function.BinaryOperator;
 import java.util.function.Function;
