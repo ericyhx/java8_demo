@@ -7,7 +7,7 @@ import java.util.stream.Stream;
 /**
  * 创建一个流的几种方式
  */
-public class SteamTest {
+public class SteamTest1 {
     public static void main(String[] args) {
         Stream stream=Stream.of("hello","world","hello world");
         String[] myArray=new String[]{"hello","world","hello world"};
