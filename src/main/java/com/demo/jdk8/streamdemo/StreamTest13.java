@@ -23,7 +23,7 @@ public class StreamTest13 {
 //        });
 //        students.stream().collect(Collectors.groupingBy(Student::getAge,Collectors.counting())).forEach((v1,v2)-> System.out.println(v1+":"+v2));
 //        students.stream().collect(Collectors.groupingBy(Student::getAge,Collectors.averagingInt(Student::getScore))).forEach((v1,v2)-> System.out.println(v1+":"+v2));
-        students.stream().collect(Collectors.partitioningBy(student->student.getScore()>80)).forEach((v1,v2)-> System.out.println(v1+":"+v2));
+//        students.stream().collect(Collectors.partitioningBy(student->student.getScore()>80)).forEach((v1,v2)-> System.out.println(v1+":"+v2));
 
     }
 
